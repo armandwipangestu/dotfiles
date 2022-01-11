@@ -1,0 +1,17 @@
+# GitHub Config For Account: armandwipangestu
+#
+# Remote Origin : 
+# git remote add origin $USER:$HOSTNAME:$USERNAME_GITHUB/$REPOSITORY_NAME.git
+# git remote add origin git@github.com:armandwipangestu/reponame.git
+Host github.com
+  Hostname github.com
+  User git
+  IdentityFile ~/.ssh/id_rsa_armandwipangestu
+
+# GitHUb Config For Account: nihsx
+#
+# Remote Origin : git remote add origin git@github-nihsx:nihsx/reponame.git
+Host github-nihsx
+  Hostname github.com
+  User git
+  IdentityFile ~/.ssh/id_rsa_nihsx
