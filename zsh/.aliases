@@ -1,0 +1,104 @@
+alias serv="~/.scripts/services/services.sh $1 $2 $3"
+
+# Terminal
+alias c="clear"
+alias q="exit"
+
+# LS (List Directory)
+alias ls="exa --icons"
+alias la="exa --icons -lgha --group-directories-first"
+alias lt="exa --icons --tree"
+alias lta="exa --icons --tree -lgha"
+alias largefile="du -h -x -s -- * | sort -r -h | head -20"
+
+# Networking
+alias pingoogle="ping 8.8.8.8"
+alias pg="ping google.com"
+alias ifconfig="ip addr"
+
+# Music
+alias n="ncmpcpp"
+alias nu="ncmpcpp-ueberzug" 
+alias mkill="mpd --kill"
+alias m="music"
+
+# Fetch
+alias neo="neofetch --ascii_distro MacOS"
+alias neofetch="neofetch --ascii_distro MacOS"
+
+# Configuration
+alias apaconf="doas nvim /etc/httpd/conf/httpd.conf"
+alias zshconf="nvim $HOME/.zshrc"
+alias neoconf="nvim $HOME/.config/neofetch/config.conf"
+alias boxconf="nvim $HOME/.config/openbox"
+alias nvimconf="nvim ~/.config/nvim/init.lua"
+alias nvimset="nvim ~/.config/nvim/lua/settings/lua.lua"
+alias nvimkey="nvim ~/.config/nvim/lua/mappings/lua.lua"
+alias xresconf="nvim $HOME/.Xresources"
+alias refresh="source ~/.zshrc"
+alias unsource="exec $SHELL -l"
+
+# Package Manager
+alias pacup="doas pacman -Syyu"
+alias pacin="doas pacman -S $1"
+alias pacupin="doas pacman -Syyu $1"
+alias pacdel="doas pacman -Rns $1"
+
+# VPN
+alias pipien="doas openvpn --config $HOME/vpn/tcp/pipien.ovpn --auth-user-pass $HOME/vpn/tcp/account.txt"
+
+# Color toys aliases
+alias 256colors2="~/.scripts/toys/256colors2.pl"
+alias bloks="~/.scripts/toys/bloks"
+alias colortest="~/.scripts/toys/colortest"
+alias colortest-slim="~/.scripts/toys/colortest-slim"
+alias colorview="~/.scripts/toys/colorview"
+alias colorbars="~/.scripts/toys/colorbars"
+alias panes="~/.scripts/toys/panes"
+alias pipes1="~/.scripts/toys/pipes1"
+alias pipes2="~/.scripts/toys/pipes2"
+alias pipes2-slim="~/.scripts/toys/pipes2-slim"
+alias pactoy="~/.scripts/toys/pacman"
+alias dna="~/.scripts/toys/dna"
+alias ghost="~/.scripts/toys/ghost"
+alias rains="~/.scripts/toys/rains"
+alias jfetch="~/.scripts/toys/jfetch"
+
+# Git
+alias gitgraph="git log --all --decorate --oneline --graph"
+alias gitstat="git status"
+alias gitupdate="git fetch && git pull" 
+
+# Configuration
+alias aliasconf="nvim ~/.aliases"
+
+# JavaScript
+alias repocek="node ~/.scripts/js/repochecker.js"
+
+alias lms="cat ~/Documents/Kuliah/LMS/data.txt"
+
+alias wpu="~/Documents/HARDISK/Windows\ 10/Disk\ D/ARMAN/YouTube/Web\ Programming\ UNPAS"
+
+alias isofile="cd ~/Documents/HARDISK/Windows\ 10/Disk\ D/ARMAN/ISO\ File"
+alias ventoyweb="sudo sh ~/Ventoy/VentoyWeb.sh"
+
+alias disk="system disk"
+alias batt="system battery neofetch"
+alias startconf="nvim ~/.start"
+alias rx="rxfetch hydra"
+alias rxconf="nvim ~/.local/bin/rxfetch"
+alias yt="yt-dlp -x --audio-format mp3 --audio-quality 0 $1"
+
+alias compres="ffmpeg -i $1 -c:v libx264 -crf 25 $2"
+
+alias repo="cd ~/Documents/Repository"
+alias modules="cd ~/Documents/Kuliah/Modules"
+alias kernel="find /boot/vmli*"
+alias kernelver="pacman -Q | grep linux"
+
+alias task="~/Documents/Kuliah/Modules/Task"
+alias transen="~/.scripts/translate en"
+alias transid="~/.scripts/translate id"
+alias ncmconf="nvim ~/.config/ncmpcpp/config"
+alias mpdconf="nvim ~/.config/mpd/mpd.conf"
+alias chzsh="~/.scripts/zsh/changetheme.sh"
