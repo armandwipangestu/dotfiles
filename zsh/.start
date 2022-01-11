@@ -1,0 +1,15 @@
+#neofetch
+#neo
+
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+#[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+#clear && neo
+
+#tmux
+echo -e "\e[4 q"
+
+#rxfetch hydra
+neo
+echo ""
+
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
