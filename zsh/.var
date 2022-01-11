@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+export USER_GIT="git"
+
+export EMAIL_GIT_WORK="armandwi.pangestu7@gmail.com"
+export USERNAME_GIT_WORK="armandwipangestu"
+export HOSTNAME_GIT_WORK="github.com"
+
+export EMAIL_GIT_FUN="xshin3373@gmail.com"
+export USERNAME_GIT_FUN="nihsx"
+export HOSTNAME_GIT_FUN="github-${USERNAME_GIT_FUN}"
